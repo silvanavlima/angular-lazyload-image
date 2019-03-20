@@ -1,0 +1,9 @@
+<ul lazy-load-images>
+  <li *ngFor="let item of images">
+    <img
+      class="figure-img img-fluid rounded"
+      alt="A generic square placeholder image with rounded corners in a figure."
+      [attr.data-src]="item"
+    />
+  </li>
+</ul>
